@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  body {
+    font-weight: normal;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input-calender {
+  border-left: none !important;
+  border-right: none !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+:focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+
+.border-bottom-c {
+  border-bottom: 1.5px solid #6c757d36;
+}
+
+.mail-table-head {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-top: 1.5px solid #6c757d36;
+  border-bottom: 1.5px solid #6c757d36;
+  align-self: center;
+  background-color: #e9ecef;
+}
+
+.carrot {
+  display: none;
+}
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  .carrot {
+    display: inline;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .mail-from-h {
+    border-right: 2px solid #6c757d36;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .mail-to-h {
+    width: 10% !important;
+    border-right: 2px solid #6c757d36;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .mail-subject-h {
+    width: 20% !important;
+    border-right: 2px solid #6c757d36;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .mail-table-body {
+    display: block !important;
+  }
+
+}
+
+.mail-table-body {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1.5px solid #6c757d36;
+  align-self: center;
+  cursor: pointer;
+}
+
+.mail-table-body:hover {
+  background-color: #F5F5F5;
+  color: blue;
+}
+
+
+
+.mail-from-h {
+  width: 20%;
+  display: flex;
+}
+
+.mail-to-h {
+  width: 25%;
+}
+
+.mail-subject-h {
+  width: 45%;
+}
+
+.mail-date-h {
+  width: 10%;
+}
+
+.date-res{
+  display: none;
+}
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  .mail-from {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+  }
+
+  .date-res{
+    display: block;
+  }
+
+
+  .mail-to {
+    width: 100% !important;
+  }
+
+  .mail-subject {
+    width: 100% !important;
+  }
+
+  .mail-date {
+    display: none;
+  }
+
+  .badge-secondary {
+    position: relative;
+    left: 35px;
+  }
+
+  .icon-attach {
+    position: relative;
+    left: 20px;
+    top: 5px;
+  }
+}
+.react-bootstrap-daterangepicker-container{
+  width: 210px;
+}
+
+.mail-from {
+  width: 20%;
+}
+
+.mail-to {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-subject {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-date {
+  width: 10%;
+}
+
+.empty{
+  display: flex;
+  justify-content: center;
+  border-top: 1.5px solid #6c757d36;
+  padding-top: 10%;
+}
